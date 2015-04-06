@@ -1,0 +1,36 @@
+import java.io.*;
+public class Voce {
+	private String nome= new String();
+	private String telefono= new String();
+	public Voce()
+	{
+		InputStreamReader input= new InputStreamReader(System.in);
+		BufferedReader tastiera= new BufferedReader(input);
+		
+	}
+	/**
+	 * @param nome
+	 * @param telefono
+	 */
+	public Voce(String nome, String telefono) {
+		super();
+		this.nome = nome;
+		this.telefono = telefono;
+	}
+	public void stampa()
+	{
+		System.out.println(nome +"tel: "+ telefono);
+	}
+}
+	
+	
+	
+	
+	
+		
+}
+
+	
+		
+	
+	
